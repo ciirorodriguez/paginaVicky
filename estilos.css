@@ -1,0 +1,109 @@
+*{margin:0%;
+padding: 0%;}
+
+body{
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+
+}
+
+header{background-color: white;}
+
+
+
+.wpp{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 550px;
+
+
+}
+
+.contactContainer{background-color: pink;
+width: 100%;
+height: 300px;
+border-radius:5px;
+ }
+
+.tituloContacto{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.contentContacto{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.formContainer{display: flex;
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+
+.divNombre{background-color: transparent;
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    margin-left: 5px;
+    
+}
+
+.consulta{width: auto;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 20px;
+
+
+}
+
+.buttonInput{ background-color: pink;
+    color: black;
+    display: flex;
+    justify-items: flex-start;
+    
+    margin-left: 5px;
+    margin-top: 20px;
+
+
+}
+
+.imgContacto{
+    display: flex;
+   margin-left: 1000px;
+   margin-top: -200px;
+   margin-bottom: 20px;
+  
+   
+
+    
+
+}
+/* clase navBar */
+.navBarAlign{  display: flex;
+    margin-left: 60%;
+    background-color: white;
+    
+}
+
+.letraColor{
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+
+
+}
+
+.letraColor:hover{
+    color: pink;
+}
